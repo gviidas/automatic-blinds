@@ -1,7 +1,7 @@
 import network
 
-essid = 'DIR-615-19a3'
-password = '40304458'
+essid = 'WIFI ID'
+password = 'WIFI PASSWORD'
 
 def do_connect():
     wlan = network.WLAN(network.STA_IF)    # create station interface
